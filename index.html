@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPC - Estudos e Projetos Culturais</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Playfair+Display:ital,wght@0,400;1,400&family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo cinzel">EPC <span>| IDADE MODERNA</span></div>
+            <div class="menu">
+                <a href="#acervo">ACERVO</a>
+                <a href="#relatorio">RELATÓRIO</a>
+                <a href="#fontes">FONTES</a>
+            </div>
+            <div class="dev">MIGUEL_DEV</div>
+        </div>
+    </nav>
+
+    <header class="banner">
+        <div class="banner-text">
+            <h1 class="cinzel">Cultura e Poder na Idade Moderna</h1>
+            <p class="playfair">Uma análise dos grandes monumentos ao redor do mundo entre os séculos XV e XVIII.</p>
+        </div>
+    </header>
+
+    <main id="acervo" class="section">
+        <h2 class="section-title cinzel">Monumentos Selecionados</h2>
+        <div id="grid-trabalho" class="grid">
+            </div>
+    </main>
+
+    <section id="relatorio" class="section dark-bg">
+        <div class="container">
+            <h2 class="cinzel">Relatório de Atividades</h2>
+            <div id="relatorio-texto"></div>
+        </div>
+    </section>
+
+    <footer id="fontes" class="section">
+        <div class="container">
+            <h3 class="cinzel">Referências e Fontes de Pesquisa</h3>
+            <ul id="lista-fontes">
+                </ul>
+        </div>
+    </footer>
+
+    <div id="view-overlay" class="overlay">
+        <div class="overlay-box">
+            <button class="close-btn" onclick="fechar()">FECHAR [X]</button>
+            <div id="render-content"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
