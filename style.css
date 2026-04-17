@@ -40,3 +40,37 @@ body { background: var(--bg-dark); color: var(--text-color); font-family: 'Inter
 
 #lista-fontes a { color: var(--gold); text-decoration: none; font-size: 0.9rem; }
 #lista-fontes li { margin-bottom: 10px; list-style: none; }
+
+/* AJUSTES PARA CELULAR E TABLET */
+@media (max-width: 768px) {
+    .banner h1 {
+        font-size: 2rem; /* Diminui o título no celular */
+    }
+
+    .nav-content {
+        flex-direction: column; /* Empilha a logo e o menu */
+        gap: 10px;
+    }
+
+    .menu a {
+        margin: 0 8px;
+        font-size: 0.7rem;
+    }
+
+    .info-grid {
+        grid-template-columns: 1fr; /* Transforma as 2 colunas em 1 só no celular */
+    }
+
+    .overlay-box {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .section {
+        padding: 40px 5%; /* Diminui as margens laterais */
+    }
+
+    .item-card img {
+        height: 180px; /* Ajusta a altura da imagem para telas menores */
+    }
+}
