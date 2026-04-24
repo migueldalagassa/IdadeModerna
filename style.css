@@ -74,3 +74,14 @@ body { background: var(--bg-dark); color: var(--text-color); font-family: 'Inter
         height: 180px; /* Ajusta a altura da imagem para telas menores */
     }
 }
+
+/* ... (Seu CSS anterior aqui) ... */
+
+#render-content h3 {
+    color: var(--gold);
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 5px;
+    font-family: 'Cinzel', serif;
+}
